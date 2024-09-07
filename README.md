@@ -1,4 +1,4 @@
-### **Mulheres na Tecnologia: Celebrando as Pioneiras!** ✨
+### **Mulheres na Tecnologia: Celebrando as Pioneiras!** ✨  -- Aplicação feita durante a Imersão Alura Google Gemini
 
 **O que é essa aplicação?**
 
