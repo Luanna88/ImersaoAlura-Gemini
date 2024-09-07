@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+body {
+    font-family: "Handjet", sans-serif;
+    color: #45043a;
+    background-color: #fee6f5;
+}
+
+header {
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%; 
+}
+
+.navbar .title{
+    font-family: "Handjet", sans-serif;
+    font-size: 6em;
+    font-weight: 600;
+    color: #45043a;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.nav-menu {
+    list-style: none;
+    display:inline-flex;
+    cursor: pointer;
+
+}
+
+.nav-menu li {
+    margin-left: 100px;
+    font-size: 2.5em ;
+    cursor: pointer;
+
+}
+
+.nav-menu a {
+    color: #45043a;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-menu a:hover {
+    color: #ffdd57;
+}
+
+.header-content {
+    text-align: center;
+    padding: 190px 20px;
+    background: rgb(252, 205, 243);
+}
+
+.header-content h1 {
+    font-size: 7em;
+    margin-bottom: 20px;
+    font-family: "Handjet", sans-serif;
+    font-weight: 600;
+}
+
+.header-content p {
+    font-family: "Handjet", sans-serif;
+    font-size: 3em;
+    margin-bottom: 60px;
+}
+
+section input {
+    width: 30rem; 
+    border: none; 
+    padding: 1rem; 
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    color:#45043a; 
+    box-sizing: border-box; 
+    font-family: "Handjet", sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    cursor: pointer;
+
+}
+
+.header-content .btn {
+    background-color: #ff57ff;
+    color: #45043a;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 40px;
+    transition: background-color 0.3s;
+    font-family: "Handjet", sans-serif;
+    font-size: 2.3em;
+    margin-left: 1.5rem; 
+    cursor: pointer;
+
+}
+
+.header-content .btn:hover {
+    background-color: #ffdd57;
+}
+
+.resultados-pesquisa {
+    width: 150rem; 
+    height: 46vh; 
+    overflow-y: auto; 
+    margin-top: 1rem; 
+    padding: 1rem; 
+    border-radius: 0.6rem;
+    justify-content: center;
+    transform: translate(12%, 10%);
+    cursor: pointer;
+
+}
+
+.item-resultado {
+    background: #FFFFFF; 
+    border-radius: 1rem; 
+    padding: 2rem; 
+    margin-bottom: 1rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.item-resultado h2 {
+    font-family: "Handjet", sans-serif;
+    font-size: 1.8em;
+    color: #45043a;
+}
+
+.descricao-meta {
+    color:  #45043a;
+    margin: 0.5rem 0;
+    font-size: 2.5em;
+    font-family: "Handjet", sans-serif;
+    font-weight:450;
+
+}
+
+.item-resultado a {
+    text-decoration: none; 
+    color: #d046d0; 
+    font-size: 2.3em;
+    cursor: pointer;
+
+    
+}
+
+/* Estiliza os links quando são passados o mouse sobre */
+.item-resultado a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+.about-section {
+    background: rgb(252, 205, 243);
+    color: #fff;
+    padding: 60px 20px;
+    margin-bottom: 30px;
+    margin-top: 160px;
+}
+
+.about-section .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 7em;
+    margin-bottom: 20px;
+    font-family: "Handjet", sans-serif;
+
+}
+
+.about-section p {
+    font-size: 3em;
+    line-height: 1.8;
+    font-family: "Handjet", sans-serif;
+
+}
+
+footer {
+    background: rgb(252, 205, 243);
+    color: #45043a;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Handjet", sans-serif;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-family: "Handjet", sans-serif;
+    font-size:1.9em;
+    font-weight: bold
+}
+
+footer a {
+    color: #eb4eeb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #ffdd57;
+}
+
+.aviso {
+    color:#45043a; 
+    font-family: "Handjet", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.erro {
+    color:#45043a; 
+    font-family: "Handjet", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.detalhes {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    display: none; 
+}
+
+h2.nome {
+    cursor: pointer;
+    font-family: "Handjet", sans-serif;
+    font-size: 3.8em;
+    color: #45043a;
+}
+
+h2.nome:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+    
+    .navbar .logo {
+        margin: 0 auto;
+    }
+    
+    .header-content {
+        padding: 100px 20px;
+    }
+    
+    .header-content h1 {
+        font-size: 2.5em;
+    }
+}

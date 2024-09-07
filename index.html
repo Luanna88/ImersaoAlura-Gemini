@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="image/mulhertech.ico" type="umage/x-icon">
+        <meta name="description" content="Uma homenagem às mulheres que revolucionaram a área de tecnologia, um meio predominantemente masculino.">
+        <link rel="stylesheet" href="styles.css">
+        <title> Mulheres na Tecnologia</title>
+    </head>
+
+    <body  onload="exibirMulheres()">
+        <header>
+            <header>
+                <nav class="navbar">
+                    <div class="container">
+                         <h1  class="title">Mulheres que Revolucionam a Tecnologia</h1>
+                         <ul class="nav-menu">
+                            <li> <a href="#">Início</a></li>
+                            <li><a href="#mulheres">Mulheres</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                         </ul>
+                    </div>
+                </nav>
+                <div class="header-content">
+                    <h1>Celebrando Pioneiras da Tecnologia</h1>
+                    <p>Conheça as mulheres que mudam o mundo através da inovação tecnológica.</p>
+                        <section>
+                            <input type="text" placeholder="Digite um nome ou termo para pesquisar" id="campo-pesquisa">
+                            <a class="btn" onclick="pesquisar()">Pesquisar</a>
+                        </section>
+                </div>
+        </header>
+        <section class="resultados-pesquisa"  id="resultados-pesquisa">
+           
+        </section>
+
+        <section class="about-section" id="sobre">
+            <div class="container">
+                <h2>Sobre Este Projeto</h2>
+                <p>Este projeto visa homenagear e divulgar as contribuições das mulheres do Brasil na área da tecnologia, inspirando futuras gerações a seguirem seus passos.</p>
+            </div>
+        </section>
+
+        <footer id="contato">
+            <p>&copy; 2024 Mulheres na Tecnologia.  Todos os direitos reservados.</p>
+            <p>Contato: <a href="mailto:contato@mulherestecnologia.com">contato@mulherestecnologia.com</a></p>
+        </footer>
+
+        <script src="dados.js"></script>
+        <script src="app.js"></script>
+    </body>
